@@ -1,6 +1,6 @@
 # Weather Web App
 
-![Weather App Screenshot](/Images/screenshot.png)
+![Weather App Screenshot](/Screenshot.png)
 
 ## Description
 
@@ -54,7 +54,7 @@ This is a simple weather web app that allows users to search for the weather of 
 
 ## Screenshots
 
-![Weather App Screenshot](/Images/screenshot.png)
+![Weather App Screenshot](/screenshot.png)
 
 ## Credits
 
