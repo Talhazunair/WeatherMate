@@ -1,0 +1,176 @@
+.container
+{
+    max-height: 100%;
+    max-width: 100%;
+    height: 90vh;
+    width: 70vh;
+    background-color: chocolate;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url('/Images/mainBG.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 25px 15px 7px rgba(0, 0, 0, 0.3);
+}
+.current-weather
+{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.weather-search
+{
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    height: 25px;
+    width: 40vh;
+    border: 0;
+    border-radius: 10px;
+}
+.weather-search:focus
+{
+    outline: none;
+}
+.search-btn
+{
+    position: absolute;
+    top: 5%;
+    left: 73%;
+    height: 4vh;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.temp
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 10vh;
+}
+.condition
+{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 3.5vh;
+}
+.city-name
+{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.container2 table tr td
+{
+    background-color: transparent;
+    height: 13vh;
+    width: 15vh;
+    border-radius: 10px;
+    box-shadow: 25px,15px,7px black;
+}
+.container2 
+{
+   position: absolute;
+   top: 78%;
+   left: 50%;
+   transform: translate(-50%,-50%); 
+}
+.container2 td
+{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.date
+{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.video-container
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.video-container video
+{
+    min-width: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) 
+{
+    body
+    {
+        margin: 0;
+        padding: 0;
+        font-family: Arial,sans-serif;
+        overflow-x: hidden;
+    }
+    .container
+    {
+        width: 100%vh;
+        max-width: 100%;
+        min-height: 100%;
+    }
+    .weather-search
+    {
+        width: 55%;
+    }   
+    .search-btn
+    {
+        height: 4%;
+    }
+    .weather-icon
+    {
+        position: relative;top: 20vh;
+    }
+    .temp
+    {
+        top: 32%;
+        font-size: 8vh;
+    }
+    .condition
+    {
+        top: 43%;
+        left: 57%;
+    }
+    .city-name
+    {
+        top: 53%;
+    }
+    .date
+    {
+        top: 58%;
+    }
+    .container2
+    {
+        display: none;
+    }
+    .video-container
+    {
+        display: none;
+    }
+}

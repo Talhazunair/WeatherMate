@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Weather Mate</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="weather-search" placeholder="Search City Weather..." id="citysearch">
+        <Button class="search-btn" id="search">Search</Button>
+        <div class="weather-icon">
+            <img src="/Images/CloudySun.png" alt="cloudySun" width="200" class="current-weather" id="weathericon">
+        </div>
+        <h1 class="temp" id="tempcity">32&#176;C</h1>
+        <h2 class="condition" id="currentWeather">Cloudy Sunny</h2>
+        <h2 class="city-name" id="cityname">Jaranwala</h2>
+        <h2 class="date" id="currentDate">10 Nov 2023</h2>
+    </div>
+    <div class="container2">
+        <table>
+            <tr>
+                <td>
+                    <img src="/Images/sunset.png" alt="" width="65">
+                    <Label>Sunset</Label>
+                    <br>
+                    <Label id="sunset">5:00 PM</Label>
+                </td>
+                <td>
+                    <img src="/Images/sunrise.png" alt="" width="65">
+                    <Label>SunRise</Label>
+                    <br>
+                    <Label id="sunrise">6:00 AM</Label>
+                </td>
+                <td>
+                    <img src="/Images/windy.png" alt="" width="100">
+                    <Label>Wind Speed</Label>
+                    <br>
+                    <Label id="windspeed">1 Km/MS</Label>
+                </td>
+                <td>
+                    <img src="/Images/Globe.png" alt="" width="65">
+                    <Label>Country</Label>
+                    <br>
+                    <Label id="countrycode">PK</Label>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="video-container" style="z-index: -10;">
+        <video src="/Videos/bgVideo.mp4" class="bg-video" autoplay loop ></video>
+    </div>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
