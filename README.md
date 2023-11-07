@@ -52,10 +52,6 @@ This is a simple weather web app that allows users to search for the weather of 
 
 3. The app will fetch and display the weather data for the specified city.
 
-## Screenshots
-
-![Weather App Screenshot](/screenshot.png)
-
 ## Credits
 
 - [OpenWeather](https://openweathermap.org/) - Weather data provided by OpenWeather API.
